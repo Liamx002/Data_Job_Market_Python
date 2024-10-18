@@ -25,8 +25,6 @@ In order to discover the in demand skills for the top 3 most popular data roles,
                    df_plot["job_skills"].iloc[j],
                    f'{int(df_plot["skill_percent"].iloc[j]):.0f}%',
                    va="center")
-    if i != len(job_titles) - 1:
-        ax[i].set_xticks([])
 ```
 
 ### Results 
