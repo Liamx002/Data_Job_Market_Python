@@ -1,3 +1,36 @@
+# Introduction
+
+Welcome to my in depth analysis into the data job market, focusing on Data Scientist roles within the US. This project was built to explore the workings of the US job market more effectively. It looks into the top-paying and in-demand skills which could drive the decision making of future Data Scientist choosing to enter the field. 
+
+The data used in this analysis is from [Luke Barousse's Python Course](https://huggingface.co/datasets/lukebarousse/data_jobs) which has set the foundations and provided a framework for my analysis. Through the use of Python, I have sought to answer questions around the most demanded skills, salary trends, and the intersection of demand and salary in data analytics.
+
+# Questions Posed
+
+Below are the questions I want to answer within the project:
+
+1. What are the most in-demand skills for the top three most popular data roles?
+2. What are the trends for in-demand skills for Data Scientists?
+3. How well do jobs and skills pay for Data Scientists?
+4. What are the best skills for Data Scientists to learn? (considering both high demand and high paying skills).
+
+# Tools Used
+
+- **Python**: Used throughout the entirety of my project, allowing me to break down and analize the data for critical insights. To help in this process the following libraries were used:
+    - **Pandas Library**: This helped in analysing the data.
+    - **Matplotlib Library**: Used to visualise the data.
+    - **Seaborn Library**: Added to the visuals from matplotlib to improve style and structure.
+- **Jupyter Notebooks**: A tool I used to run all my Python scipts allowing me to easily place notes and run my analysis. 
+- **Visual Studio Code**: Used to execute my Python scripts.
+- **Git & GitHub**: Essential for version control and sharing both my Python code and analysis.
+
+# Data Preparation and Cleanup
+
+### **Measures Taken**:
+- I first import the necessary libraries and load in the dataset for which I will be analysing. 
+- I then make sure to check that all data is formatted correctly
+- df["job_posted_date"] was converted to datetime format before analysis.
+- df["job_skills"] was converted into an object format prior to analysis.
+
 # The Analysis
 
 ## 1. What are the most demanded skills for the 3 most popular data roles?
@@ -160,3 +193,30 @@ for i, txt in enumerate(df_DS_skills_high_demand.index):
 - Of the 10 percent or higher Data Scientist job postings, Python is the most popular skill, followed by SQL , R, ans SAS, all of which are technologies based in programming. Thus programming based skills are essential for meeting the requirements of most Data Scientist job postings. 
 
 - Skills which are most popular sit within the middle of the Median Yearly Salary whilst less popular skills in job postings have much more variance covering both the lowest and highest paying skills for Data Scientists. One might be able to note that skills posted less are either done so given low popularity (lower salaries) or for higher specialised jobs (higher salaries).
+
+# What I Learned
+
+Throughout the project, I was presented with new ways of using python to fully understand the workings of the US job market for Data Scientists.
+
+- **Advanced Python Skillset**: Throughout my analysis, I was utilizing libraries such as Pandas for data manipulation, while using Matplotlib and Seaborn for my data visualisation, using other libraries to assist in my analysis throughout. 
+- **Data Cleaning Usage**: I was reminded of how important clean data is before conducting any form of analysis, thus ensuring results at the end of my analysis were unbiased and accurate.
+- **Strategic Skill Analysis**: Throughout the analysis, I found the importance of striking a balance between learning in demand skills and high paying skills alongside eachother, allowing me to improve upon my career planning within the tech industry. 
+
+# Insights
+
+The project provided me detailed insights into the US data job market for Data Scientists:
+- **Skill Demand and Salary Correlation**: Within the analysis, I found that the most in demand skills commanded fairly large salaries while those demanded less had a greater range, from the bottom bracket of Data Scientists salary to the upper bracket. 
+- **Market Trends**: Trends in skill demand are constant, meaning one must stay up to date to see whether there skills are valued equally over time. 
+- **Economic Value of Skills**: Striking a balance between high -demand and high-paying skills is key to maximizing economic returns as a data-scientist. 
+
+# Challenges I've Faced
+
+Throughout this project, I faced some challenges. 
+
+- **Labelling Plot Points Within Subplots**: The complexity of labelling scatterplot points within subplots leads for a lot of nested coding, making it easy to accidently reference the wrong code within a for loop. 
+- **Date Index Alignment**: The process of setting up indexes to manipulate the order of dates within grouped data addedd many steps in the organisation process.
+- **Deciding Scope of Analysis**: It's easy to include too many variables to explain your analysis, which would overcomplicate the visualisation. Thus, simplicity is essential but enough information is needed to convey a relationship.
+
+# Conclusion
+
+Throughout this project, I have made many discoveries which have informed me on the most desirable skills for Data Scientists within the US Job Market. Given the US is one of the largest employers of roles in data analytics, these insights provide valuable information for myself as I look into career paths around Data Science. The project itself has greatly improved my ability to clean, analyse and visualise data within Python. I hope to build upon these skills to help me in future projects.
