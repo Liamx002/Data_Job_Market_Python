@@ -96,6 +96,7 @@ plt.show()
 ### Results
 
 ![Trending Top Skills for Data Scientists in the US](3_Project/Images/trending_skills_line_plot.png)
+
 *Line plot visualizing the trending top skills for data scientists in the US in 2023.*
 
 ### Insights
@@ -154,7 +155,9 @@ plt.tight_layout()
 plt.show()
 ```
 
-![The Highest Paid & Most In-Demand Skills for Data Scientists in the US](3_Project/Images/yearly_salary_by_junior_vs_senior_ds.png)*Two separate bar graphs visualizing the highest paid skills and most in-demand skills for data scientists in the US.*
+![The Highest Paid & Most In-Demand Skills for Data Scientists in the US](3_Project/Images/yearly_salary_by_junior_vs_senior_ds.png)
+
+*Two separate bar graphs visualizing the highest paid skills and most in-demand skills for data scientists in the US.*
 
 #### Insights
 
@@ -184,7 +187,9 @@ for i, txt in enumerate(df_DS_skills_high_demand.index):
 
 #### Results
 
-![Most Optimal Skills for Data Scientists in the US](3_Project/Images/optimal_skills_ds.png)*A scatter plot visualising the most optimal skills (high paying & high demand) for data scientists in the US.*
+![Most Optimal Skills for Data Scientists in the US](3_Project/Images/optimal_skills_ds.png)
+
+*A scatter plot visualising the most optimal skills (high paying & high demand) for data scientists in the US.*
 
 #### Insights
 
