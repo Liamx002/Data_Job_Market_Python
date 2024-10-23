@@ -37,7 +37,7 @@ Below are the questions I want to answer within the project:
 
 In order to discover the in demand skills for the top 3 most popular data roles, I filtered out the three most popular data roles and then found the top 5 in demand skills that correspond to each given role. This means the query effectively highlights the most popular job titles and their respective most popular skills, showing the skills I should pay attention to depending on the the role I'm focussing on.
 
- View the notebook with the steps included here: [2_Skills_Demand](3_Project\2_Skills_Demand.ipynb)
+ View the notebook with the steps included here: [2_Skills_Demand](3_Project/2_Skills_Demand.ipynb)
 
  ### Labelling the Visualisation
 
@@ -126,7 +126,7 @@ plt.show()
 
 #### Results
 
-![Salary Distribution of Data Jobs in the US](3_Project\Images\salary_distribution_in_the_us.png)*Box plot visualising the salary distribution for the top 6 data job titles.*
+![Salary Distribution of Data Jobs in the US](3_Project/Images/salary_distribution_in_the_us.png)*Box plot visualising the salary distribution for the top 6 data job titles.*
 
 #### Insights
 
@@ -154,7 +154,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-![The Highest Paid & Most In-Demand Skills for Data Scientists in the US](3_Project\Images\yearly_salary_by_junior_vs_senior_ds.png)*Two separate bar graphs visualizing the highest paid skills and most in-demand skills for data scientists in the US.*
+![The Highest Paid & Most In-Demand Skills for Data Scientists in the US](3_Project/Images/yearly_salary_by_junior_vs_senior_ds.png)*Two separate bar graphs visualizing the highest paid skills and most in-demand skills for data scientists in the US.*
 
 #### Insights
 
@@ -184,7 +184,7 @@ for i, txt in enumerate(df_DS_skills_high_demand.index):
 
 #### Results
 
-![Most Optimal Skills for Data Scientists in the US](3_Project\Images\optimal_skills_ds.png)*A scatter plot visualising the most optimal skills (high paying & high demand) for data scientists in the US.*
+![Most Optimal Skills for Data Scientists in the US](3_Project/Images/optimal_skills_ds.png)*A scatter plot visualising the most optimal skills (high paying & high demand) for data scientists in the US.*
 
 #### Insights
 
