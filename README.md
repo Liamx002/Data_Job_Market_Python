@@ -95,7 +95,7 @@ plt.show()
 ```
 ### Results
 
-![Trending Top Skills for Data Scientists in the US](3_Project\Images\trending_skills_line_plot.png)
+![Trending Top Skills for Data Scientists in the US](3_Project/Images/trending_skills_line_plot.png)
 *Line plot visualizing the trending top skills for data scientists in the US in 2023.*
 
 ### Insights
