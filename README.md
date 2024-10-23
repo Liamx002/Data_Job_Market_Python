@@ -62,7 +62,7 @@ In order to discover the in demand skills for the top 3 most popular data roles,
 
 ### Results 
 
-![Visualisation of Top Skills for each Data Role](3_Project/Images/proportion_top_skills_job_roles.png)
+![Visualisation of Top Skills for each Data Role](3_Project\Images\proportion_top_skills_job_roles.png)
 
 ### Insights
 
