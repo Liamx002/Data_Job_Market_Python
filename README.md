@@ -15,18 +15,18 @@ Below are the questions I want to answer within the project:
 
 # Tools Used
 
-- **Python**: Used throughout the entirety of my project, allowing me to break down and analize the data for critical insights. To help in this process the following libraries were used:
-    - **Pandas Library**: This helped in analysing the data.
-    - **Matplotlib Library**: Used to visualise the data.
+- **Python**: Used throughout the entirety of my project, allowing me to break down and analyze the data for critical insights. To help in this process the following libraries were used:
+    - **Pandas Library**: This helped in analyzing the data.
+    - **Matplotlib Library**: Used to visualize the data.
     - **Seaborn Library**: Added to the visuals from matplotlib to improve style and structure.
-- **Jupyter Notebooks**: A tool I used to run all my Python scipts allowing me to easily place notes and run my analysis. 
+- **Jupyter Notebooks**: A tool I used to run all my Python scripts allowing me to easily place notes and run my analysis. 
 - **Visual Studio Code**: Used to execute my Python scripts.
 - **Git & GitHub**: Essential for version control and sharing both my Python code and analysis.
 
 # Data Preparation and Cleanup
 
 ### **Measures Taken**:
-- I first import the necessary libraries and load in the dataset for which I will be analysing. 
+- I first import the necessary libraries and load in the dataset for which I will be analyzing. 
 - I then make sure to check that all data is formatted correctly
 - df["job_posted_date"] was converted to datetime format before analysis.
 - df["job_skills"] was converted into an object format prior to analysis.
@@ -35,7 +35,7 @@ Below are the questions I want to answer within the project:
 
 ## 1. What are the most demanded skills for the 3 most popular data roles?
 
-In order to discover the in demand skills for the top 3 most popular data roles, I filtered out the three most popular data roles and then found the top 5 in demand skills that correspond to each given role. This means the quiery effectively highlights the most popular job titles and their respective most popular skills, showing the skills I should pay attention to depending on the the role I'm focussing on.
+In order to discover the in demand skills for the top 3 most popular data roles, I filtered out the three most popular data roles and then found the top 5 in demand skills that correspond to each given role. This means the query effectively highlights the most popular job titles and their respective most popular skills, showing the skills I should pay attention to depending on the the role I'm focussing on.
 
  View the notebook with the steps included here: [2_Skills_Demand](3_Project\2_Skills_Demand.ipynb)
 
@@ -68,13 +68,13 @@ In order to discover the in demand skills for the top 3 most popular data roles,
 
 - Python and SQL are skills that are highly valued within all three job roles.
 
-- Python is found in required skills nearly three quaters of the time, making it an essential skill within this job role.
+- Python is found in required skills nearly three quarters of the time, making it an essential skill within this job role.
 
-- Data Analyst Roles posses a more even proportioned spread of skills within their job postings while both Data Engineers and Data Scientists have very strongly weighted skills comparitive to much lower requested skills. 
+- Data Analyst Roles posses a more even proportioned spread of skills within their job postings while both Data Engineers and Data Scientists have very strongly weighted skills comparative to much lower requested skills. 
 
 ## 2. How are in-demand skills trending for Data Scientists?
 
-### Visualise Data
+### Visualize Data
 
 ```python
 
@@ -96,13 +96,13 @@ plt.show()
 ### Results
 
 ![Trending Top Skills for Data Scientists in the US](3_Project\Images\trending_skills_line_plot.png)
-*Line plot visualising the trending top skills for data scientists in the US in 2023.*
+*Line plot visualizing the trending top skills for data scientists in the US in 2023.*
 
 ### Insights
 
 - For Data Scientists, Python remains the highest posted skill throughout the year relative to the other highest four. 
 
-- When comparing from the start to the end of the year, both Python and R and have experienced a small abdsteady decrease in job posting likelihood. 
+- When comparing from the start to the end of the year, both Python and R and have experienced a small and steady decrease in job posting likelihood. 
 
 - With the data on only one year, it is likely that the popularity of each skill could fluctuate. For example, despite SQL having a relative decline, the uptick in job postings felt in October could persist into the new year.
 
@@ -130,7 +130,7 @@ plt.show()
 
 #### Insights
 
-- Despite Data Scientists being below the median salary of the respective Senior Data Enineer and Senior Data Scientists, both the junior Data Scientist and Data Engineer roles sit above the Senior Data Analyst role. 
+- Despite Data Scientists being below the median salary of the respective Senior Data Engineer and Senior Data Scientists, both the junior Data Scientist and Data Engineer roles sit above the Senior Data Analyst role. 
 
 - Data Scientists are offered the highest median salary of all three junior data roles within the US and the Senior Data Scientist leads with the highest overall median salary when compared to all senior roles present in the results. 
 
@@ -154,7 +154,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-![The Highest Paid & Most In-Demand Skills for Data Scientists in the US](3_Project\Images\yearly_salary_by_junior_vs_senior_ds.png)*Two seperate bar graphs visualising the highest paid skills and most in-demand skills for data scientists in the US.*
+![The Highest Paid & Most In-Demand Skills for Data Scientists in the US](3_Project\Images\yearly_salary_by_junior_vs_senior_ds.png)*Two separate bar graphs visualizing the highest paid skills and most in-demand skills for data scientists in the US.*
 
 #### Insights
 
@@ -188,19 +188,19 @@ for i, txt in enumerate(df_DS_skills_high_demand.index):
 
 #### Insights
 
-- Of the 10 percent or higher Data Scientist job postings, tensorflow is the highest paying skill, followed by spark, both of which happen to be libraries. Therefore, learning a library based technology is necessarry to qualify for the higher paying Data Scientist roles.
+- Of the 10 percent or higher Data Scientist job postings, tensorflow is the highest paying skill, followed by spark, both of which happen to be libraries. Therefore, learning a library based technology is necessary to qualify for the higher paying Data Scientist roles.
 
 - Of the 10 percent or higher Data Scientist job postings, Python is the most popular skill, followed by SQL , R, ans SAS, all of which are technologies based in programming. Thus programming based skills are essential for meeting the requirements of most Data Scientist job postings. 
 
-- Skills which are most popular sit within the middle of the Median Yearly Salary whilst less popular skills in job postings have much more variance covering both the lowest and highest paying skills for Data Scientists. One might be able to note that skills posted less are either done so given low popularity (lower salaries) or for higher specialised jobs (higher salaries).
+- Skills which are most popular sit within the middle of the Median Yearly Salary whilst less popular skills in job postings have much more variance covering both the lowest and highest paying skills for Data Scientists. One might be able to note that skills posted less are either done so given low popularity (lower salaries) or for higher specialized jobs (higher salaries).
 
 # What I Learned
 
 Throughout the project, I was presented with new ways of using python to fully understand the workings of the US job market for Data Scientists.
 
-- **Advanced Python Skillset**: Throughout my analysis, I was utilizing libraries such as Pandas for data manipulation, while using Matplotlib and Seaborn for my data visualisation, using other libraries to assist in my analysis throughout. 
+- **Advanced Python Skill Set**: Throughout my analysis, I was utilizing libraries such as Pandas for data manipulation, while using Matplotlib and Seaborn for my data visualization, using other libraries to assist in my analysis throughout. 
 - **Data Cleaning Usage**: I was reminded of how important clean data is before conducting any form of analysis, thus ensuring results at the end of my analysis were unbiased and accurate.
-- **Strategic Skill Analysis**: Throughout the analysis, I found the importance of striking a balance between learning in demand skills and high paying skills alongside eachother, allowing me to improve upon my career planning within the tech industry. 
+- **Strategic Skill Analysis**: Throughout the analysis, I found the importance of striking a balance between learning in demand skills and high paying skills alongside each other, allowing me to improve upon my career planning within the tech industry. 
 
 # Insights
 
@@ -213,10 +213,10 @@ The project provided me detailed insights into the US data job market for Data S
 
 Throughout this project, I faced some challenges. 
 
-- **Labelling Plot Points Within Subplots**: The complexity of labelling scatterplot points within subplots leads for a lot of nested coding, making it easy to accidently reference the wrong code within a for loop. 
-- **Date Index Alignment**: The process of setting up indexes to manipulate the order of dates within grouped data addedd many steps in the organisation process.
-- **Deciding Scope of Analysis**: It's easy to include too many variables to explain your analysis, which would overcomplicate the visualisation. Thus, simplicity is essential but enough information is needed to convey a relationship.
+- **Labelling Plot Points Within Subplots**: The complexity of labelling scatterplot points within subplots leads for a lot of nested coding, making it easy to accidentally reference the wrong code within a for loop. 
+- **Date Index Alignment**: The process of setting up indexes to manipulate the order of dates within grouped data added many steps in the organization process.
+- **Deciding Scope of Analysis**: It's easy to include too many variables to explain your analysis, which would have overcomplicated the visualization. Thus, simplicity is essential but enough information is needed to convey a relationship.
 
 # Conclusion
 
-Throughout this project, I have made many discoveries which have informed me on the most desirable skills for Data Scientists within the US Job Market. Given the US is one of the largest employers of roles in data analytics, these insights provide valuable information for myself as I look into career paths around Data Science. The project itself has greatly improved my ability to clean, analyse and visualise data within Python. I hope to build upon these skills to help me in future projects.
+Throughout this project, I have made many discoveries which have informed me on the most desirable skills for Data Scientists within the US Job Market. Given the US is one of the largest employers of roles in data analytics, these insights provide valuable information for myself as I look into career paths around Data Science. The project itself has greatly improved my ability to clean, analyze and visualize data within Python. I hope to build upon these skills to help me in future projects.
